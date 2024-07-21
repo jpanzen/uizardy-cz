@@ -1,9 +1,11 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: 'stranka root',
+  title: 'stranka neco',
 }
 
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>
+  const cislo = []
+
+  return <h1>stranka necoo</h1>
 }
