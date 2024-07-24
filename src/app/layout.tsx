@@ -1,5 +1,6 @@
 import Navbar from "@/components/navbar";
 import './globals.css'
+import { poppins } from "./ui/fonts";
 
 export default function RootLayout({
     children,
@@ -9,7 +10,7 @@ export default function RootLayout({
 
     return (
       <html lang="cs">
-        <body>
+        <body className={`${poppins.className} antialiased bg-dark text-white`}>
           <Navbar/>
           { children }
           <footer>ahoj</footer>
