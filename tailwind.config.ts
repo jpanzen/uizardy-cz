@@ -15,9 +15,11 @@ const config: Config = {
       },
       backgroundColor: {
         "dark": "#0A0A0A",
-        "darkLighter": "#121212"
+        "darkLighter": "#121212",
+        "menuIcon": "rgb(255, 255, 255, 0.05)"
       },
       borderColor: {
+        "menuIcon": "rgb(255, 255, 255, 0.1)",
         "dark": "#222222",
         "background": "#0A0A0A",
         "linkHover": "#424242"
