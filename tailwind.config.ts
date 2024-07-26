@@ -16,7 +16,8 @@ const config: Config = {
       backgroundColor: {
         "dark": "#0A0A0A",
         "darkLighter": "#121212",
-        "menuIcon": "rgb(255, 255, 255, 0.05)"
+        "menuIcon": "rgb(255, 255, 255, 0.05)",
+        "menuHover": "#161717"
       },
       borderColor: {
         "menuIcon": "rgb(255, 255, 255, 0.1)",

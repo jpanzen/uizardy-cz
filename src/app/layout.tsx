@@ -13,7 +13,6 @@ export default function RootLayout({
         <body className={`${poppins.className} antialiased bg-dark text-white`}>
           <Navbar/>
           { children }
-          <footer>ahoj</footer>
         </body>
       </html>
     )

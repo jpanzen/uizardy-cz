@@ -13,16 +13,16 @@ function Navbar() {
         
         {/* Desktop menu */}
         <ul className="flex-row gap-[60px] leading-loose hidden lg:flex">
-          <li className="p-[2px] border-solid border-b-[1px] border-background hover:border-linkHover transition-colors duration-300">
+          <li className="px-[20px] rounded-[6px] hover:bg-menuHover transition-colors duration-300">
             <Link href="/">Webový audit</Link>
           </li>
-          <li className="p-[2px] border-solid border-b-[1px] border-background hover:border-linkHover transition-colors duration-300">
+          <li className="px-[20px] rounded-[6px] hover:bg-menuHover transition-colors duration-300">
             <Link href="/">Tvorba webu</Link>
           </li>
-          <li className="p-[2px] border-solid border-b-[1px] border-background hover:border-linkHover transition-colors duration-300">
+          <li className="px-[20px] rounded-[6px] hover:bg-menuHover transition-colors duration-300">
             <Link href="/">SEO</Link>
           </li>
-          <li className="p-[2px] border-solid border-b-[1px] border-background hover:border-linkHover transition-colors duration-300">
+          <li className="px-[20px] rounded-[6px] hover:bg-menuHover transition-colors duration-300">
             <Link href="/">Kontakt</Link>
           </li>
         </ul>
